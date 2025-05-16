@@ -6,6 +6,7 @@
 }
 body {
     scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
 }
 /* Start Responsive  */
 .contaner{
@@ -36,7 +37,6 @@ body {
 .main-text {
     text-align: center; 
     padding-bottom: 40px;
-    font-family: cursive;
 }
 .main-text h2 {
     color: #000;
@@ -89,8 +89,7 @@ ul {
 }
 .header a.logo {
     text-transform: uppercase;
-    font-size: 20px;
-    font-family: cursive;
+    font-size: 17px;
     color: #6A0DAD;
 }
 .header ul li.active::after ,

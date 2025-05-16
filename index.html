@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>    
+    <title>Document</title>   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet"> 
     <!-- font awsome link -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- local font awsome -->
-    <link rel="stylesheet" href="../Font Awsome/css/all.min.css">
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
@@ -114,15 +115,15 @@
             <div class="our-contact">
                 <ul>
                     <li><a href="https://wa.me/+966500325366?text=ابحث%20عن%20مبرمج"><i class="fab fa-whatsapp"></i> تواصل معنا</a></li>
-                    <li><a href="mailto:muswadiabdullah@gmail.com"><i class="fa-brands fa-google"></i>راسلنا على البريد</a></li>
+                    <!-- <li><a href="mailto:none@gmail.com"><i class="fa-brands fa-google"></i>راسلنا على البريد</a></li> -->
                     <li><a href="#"><i class="fab fa-tiktok"></i>visit</a></li>
                 </ul>
             </div>
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="1d2aabb7-1e67-4144-9073-934f07e78f1b">                
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>  
-                <textarea placeholder="Message" required></textarea>   
+                <input type="text" placeholder="Your Name" name="name" required>
+                <input type="email" placeholder="Your Email" name="email" required>  
+                <textarea placeholder="Message" name="message" required></textarea>   
                 <input type="submit" value="Send">           
             </form>            
         </div>
